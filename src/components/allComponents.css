@@ -1,0 +1,186 @@
+.generalInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+    width: 510px;
+    max-height: 500px;
+    background-color: #B3CBB9;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.educationInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+    max-height: 450px;
+    width: 510px;
+    background-color: #B3CBB9;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.workInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+    width: 510px;
+    max-height: 380px;
+    background-color: #B3CBB9;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.genInfoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.allLabels{
+    width: 420px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.infoButtons{
+    display: flex;
+    gap: 100px;
+    top: 100px;
+}
+
+.allButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 490px;
+    margin-left: 310px;
+}
+
+.imgBtn{
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    
+}
+
+.imgBtn:hover{
+    transform: scale(1.1);
+}
+
+.smallImg{
+    height: 25px;
+    width: 25px;
+}
+
+.boxTopBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+.cv-preview{
+    border: 1px solid black;
+    min-height: 500px;
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+.genInfoPreview{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    min-width: 550px;
+    border-bottom: solid black;
+}
+
+.blackLine{
+    border-right: solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 7px;
+}
+
+.loc-num-email{
+    margin: 0;
+    padding: 0;
+}
+
+.previewImg{
+    height: 20px;
+    width: 20px;
+}
+
+.name-title{
+    min-width: 320px;
+}
+
+.locInfo,.emailInfo,.phoneInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    max-height: 40px;
+}
+
+.educationInfoPreview{
+    margin: 10px;
+}
+
+.company-sDate-eDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workTop,.eduTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+#company{
+    margin-right: 5px;
+}
+
+textarea{
+    resize: none;
+    overflow: auto;
+    height: 200px;
+}
+
+/* .educationPreview{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} */
+
+.eduRightSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#eduSnE{
+    margin-left: 5px;
+}
+
+.workInfoPreview,.eduInfoPreview{
+    margin: 5px;
+}
+
+@media only screen and (max-width: 800px){
+    .bodyContent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
